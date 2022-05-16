@@ -1,0 +1,34 @@
+.Navbar-main {
+    margin: 2px solid black;
+    display: flex;
+    height: 65px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.Navbar-main a:hover {
+    color: black;
+    transition: ease-in-out;
+}
+
+.marg {
+    margin: 2.5%;
+}
+
+.search-wrapper input[type='search'] {
+    height: 30px;
+    border-radius: 10px;
+    border:1px solid rgb(224, 224, 224);
+    padding: 0 0 0 15px;
+}
+
+.search-wrapper input[type='search']:focus {
+    outline: none;
+}
+
